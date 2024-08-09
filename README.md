@@ -1,6 +1,6 @@
-#Medicinal Plants Classification Using CNN Models
+# Medicinal Plants Classification Using CNN Models
 
-Overview
+## Overview
 
 This repository provides an implementation of a medicinal plants classification system using Convolutional Neural Networks (CNN) with a focus on efficiency, lightweight architecture, and high accuracy. We utilize state-of-the-art models such as MobileNet to achieve these goals, making it suitable for deployment in resource-constrained environments.
 
