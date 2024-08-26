@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedoPlants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plant Classifier</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/upload">Upload</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Upload an image to identify the plant</h2>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*">
+            <button type="submit">Upload</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Plant Classifier</p>
+    </footer>
+</body>
+</html>
